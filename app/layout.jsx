@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
           <Link href="/results" className="nav-link">Results</Link>
           <Link href="/standings" className="nav-link">Table</Link>
           <Link href="/live" className="nav-link nav-live">● Live</Link>
-          <Link href="/chat" className="nav-link">Chat</Link>
+          {/* <Link href="/chat" className="nav-link">Chat</Link>*/}
         </nav>
         {children}
       </body>
